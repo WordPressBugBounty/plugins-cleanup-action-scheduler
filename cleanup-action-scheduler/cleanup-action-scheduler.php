@@ -6,11 +6,11 @@
  * Description:       Cleanup rows of Action Scheduler or Woocommerce data recorded in your Database.
  * Author:            Media Uganda
  * Author URI:        https://mediauganda.com/
- * Version:           1.2.4
+ * Version:           1.2.5
  * Text Domain:       cleanup-action-scheduler
  * Requires at least: 4.9
  * Requires PHP:      7.4
- * Tested up to:      6.7.1
+ * Tested up to:      7.1.3
  * 
  * @package Cleanup_Action_Scheduler
  */
@@ -32,7 +32,7 @@ if ( function_exists( 'cfas_fs' ) ) {
 		function cfas_fs() {
 			global  $cfas_fs ;
 			if ( !isset( $cfas_fs ) ) {
-				require_once dirname( __FILE__ ) . '/freemius/start.php';
+				require_once dirname( __FILE__ ) . '/vendor/freemius/start.php';
                 $cfas_fs = fs_dynamic_init( array(
                     'id'                  => '10041',
                     'slug'                => 'cleanup-action-scheduler',

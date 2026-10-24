@@ -4,8 +4,8 @@ Donate link: https://paypal.me/laurencebahiirwa
 Tags: woocommerce, action, scheduler, cleanup, cron job
 Requires at least: 4.9
 Requires PHP: 7.4
-Tested up to: 6.7.1
-Stable tag: 1.2.4
+Tested up to: 7.1.3
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,11 @@ Deactivate the Plugin and activate it again.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+=== 1.2.5 ===
+
+* Update: FS SDK to latest version.
+* Tested with WordPress 7.1.3
 
 === 1.2.4 ===
 
